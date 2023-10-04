@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #645caa;
+    padding: 10px;
+}
+
+nav{
+    text-align: center;
+    padding-left: 20px;
+}
+nav a {
+    margin: 0 15px;
+    color: #ebc7e8;
+    font-family: Ink Free;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #bface0
+}
+
+.logo{
+    color: #ebc7e8;
+    font-family: "Lucida Calligraphy";
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo:hover{
+    text-shadow: 4px 4px 2px #a084ca;
+}
+
+.current{
+    text-decoration: underline;
+}
+p{
+    text-align: left;
+    color: black;
+}
+.main{
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+}
+.main h1{
+    font-size: 70px;
+
+
+ }
+/* body{
+        background-image: url(images/cover.1.jpg);
+        height: 100%;
+        width: 100%;
+}  */
+
+footer {
+    background-color: #645caa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    color: #ebc7e8;
+    font-family: Ink free;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Cute, .funny, .distance, .inspiration {
+    width: 50%;
+    margin: 0 auto; 
+    font-family: lucida sans unicode;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-style: italic;
+    border-width: 10px;
+    border-style: double;
+    border-color: cornflowerblue;
+    text-align: center;
+    background-color: #ebc7e8;
+    padding: 20px;
+}
+
+/*.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ebc7e8;
+    margin: 3px;
+    display: block;
+    border-radius: 3px;
+}
+
+.ham {
+    display: none;
+    float: right;
+}
+*/
+/*@media (max-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+    }
+
+    nav a {
+        top: 30px;
+        display: block;
+        margin: 10px 0;
+        display: none;
+    }
+
+    .logo {
+        float: left;
+        
+    }
+
+    /* .ham {
+        text-align: center
+    } */
+
+    .ham {
+        display: block;
+    }
+}*/

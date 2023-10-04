@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= class="current", initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: azure;
+            font-family: sans-serif;
+        }
+        .contact{
+            width: 500px;
+            background-color: aliceblue;
+            box-shadow: 0 0 20px 0 #999;
+            /* top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute; */
+            margin: 130px auto;
+            height: 500px;
+        }
+        form {
+            margin: 35px;
+        }
+        input, textarea{
+            width: 400px;
+            height: 40px;
+            margin-top: 20px;
+            padding-left: 10px;
+            border: 2px solid #777;
+            border-radius: 14px;
+            outline: none;
+        }
+        textarea{
+            height: 150 px;
+            padding-top: 10px;
+            font-family: sans-serif;
+        }
+        button {
+            border-radius: 20px;
+            color:#fff;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #47c35a;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 25px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <p class="logo">Mis Amigos</p> <br>
+           
+            <nav>
+                <a href="index.html" >Home</a>
+                <a href="quotes.html">Quotes</a>
+                <a href="movies.html">Movies</a>
+                <a href="music.html">Musics</a>
+                <a href="book.html">Books</a>
+                <a href="others.html">Others</a>
+                <a href="contact.html"  class="current">Contact</a>
+            </nav>
+    </header>
+    <div class="contact">
+        <form action="thankyou.html">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your E-mail">
+            <input type="text" placeholder="Your Number">
+            <textarea type="text" placeholder="Your Message"></textarea> <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+     </div>
+
+    <footer>
+        Website created by Shazi_Shaah
+    </footer>
+</body>
+</html>

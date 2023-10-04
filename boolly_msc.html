@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Lucida Console";
+            font-size: 15px;
+            background-color: white;
+        }
+
+        .box {
+            width: 250px;
+            height: 400px;
+            border: 2px solid black;
+            margin-left: auto; /*10px*/
+            margin-right: auto; /*10px*/
+            margin-top: 10px;
+            background-color: pink;
+            border-radius: 7px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .mainbox {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 55px 0;
+        }
+
+        .img img {
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+        }
+
+
+        .box:hover {
+            transform: translateX(10px);
+        }
+
+        .description {
+            padding: 10px;
+            text-align: center;
+        }
+
+        span {
+            font-family: "Segoe Script";
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <p class="logo">Mis Amigos</p> <br>
+           
+            <nav>
+                <a href="index.html" >Home</a>
+                <a href="quotes.html" >Quotes</a>
+                <a href="movies.html">Movies</a>
+                <a href="music.html" class="current">Musics</a>
+                <a href="book.html">Books</a>
+                <a href="others.html">Others</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+    </header>
+       <div class="mainbox">
+       <div class="box">
+        <div class="img">
+            <a href="jaane_nahin.html"><img src="images/music/jaane_nahi.jpg"></a>
+            <div class="description"><span>Jaane Nahi Denge Tujhe</span><br><br>Movie Name:- 3 Idiots<br><br>Singer:-Sonu 
+            Nigam</div>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <div class="img">
+            <a href="dostana.html"><img src="images/movies/dost.jpg"></a>
+        </div>
+        <div class="description"><span>Jaane kyun</span><br><br>Movie Name:- Dostana<br><br>Singers:- Vishal Dadlani & Shekhar Ravjiani</div>
+    </div>
+    <div class="box">
+        <div class="img">
+            <a href="tera_yaar.html"><img src="images/movies/TYHM.jpg"></a>
+        </div>
+        <div class="description"><span>Tera yaar Hoon Main</span><br><br>Movie Name:- Sonu Ke Titu Ki Sweety<br><br>Singer:- Arijit Singh</div>
+    </div>
+    <div class="box">
+        <div class="img">
+            <a href="hai_junoon.html"><img src="images/music/ny.jpg"></a>
+        </div>
+        <div class="description"><span>Hai Junoon</span><br><br>Movie Name:-New York<br><br>Singer:-K K</div>
+    </div>
+   </div>
+        <footer>
+        Website created by Shazi_Shaah
+    </footer>
+</body>
+</html>
